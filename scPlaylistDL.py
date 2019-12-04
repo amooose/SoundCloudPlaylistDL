@@ -8,16 +8,18 @@ def main():
 	retry = 0
 	count = 0
 	status = 0
+	
 	try:
 		import requests
 	except ImportError:
 		print ("Missing requests/mechanize/beautifulsoup4")
 		exit()
 
-	CLIENT_ID = "pToAEVYicMm3OkPBnOlGCHfEBFrYx1fz"
+	CLIENT_ID = ""
     if(len(CLIENT_ID)<1):
         print("No client_id!")
         exit()
+		
 	URL = input("Copy and paste playlist link here: ")
 	API_LINK = 'http://api.soundcloud.com/resolve.json?url=' + URL + '&client_id=' + CLIENT_ID
 
