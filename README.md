@@ -2,7 +2,7 @@
 A small script to automatically download all tracks from a soundcloud.com playlist.  
 
 Currently to my knowledge, there are no other fully working playlist downloaders, so I decided to make a working one.  
-A Client_id key is required to use this (more info below).
+A Client_id key is **required** to use this (more info below).
 
 ## Installation
 
@@ -21,6 +21,10 @@ A Client_id key is required to use this (more info below).
 ### Usage
 * Paste your key into the scPlaylistDL.py at CLIENT_ID = ""
 * Run the script and input your playlist URL
+
+<p align="center">
+  <img src="https://i.imgur.com/FY0ibIh.gif" width="550" title="Script in use">
+</p>
 
 ### Bugs
 * This downloader uses a separate site to generate a download link, occasionally the download will hang for 5-10 seconds, it will automatically retry.
