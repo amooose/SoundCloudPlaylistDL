@@ -1,7 +1,7 @@
 # SoundCloudPlaylistDL
 A small script to automatically download all tracks from a soundcloud.com playlist.  
 
-Currently to my knowledge, there are no other fully working playlist downloaders, so I decided to make a working one.
+Currently to my knowledge, there are no other fully working playlist downloaders, so I decided to make a working one.  
 A Client_id key is required to use this (more info below).
 
 ## Installation
