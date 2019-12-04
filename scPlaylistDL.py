@@ -16,9 +16,9 @@ def main():
 		exit()
 
 	CLIENT_ID = ""
-    if(len(CLIENT_ID)<1):
-        print("No client_id!")
-        exit()
+	if(len(CLIENT_ID)<1):
+		print("No client_id!")
+		exit()
 		
 	URL = input("Copy and paste playlist link here: ")
 	API_LINK = 'http://api.soundcloud.com/resolve.json?url=' + URL + '&client_id=' + CLIENT_ID
