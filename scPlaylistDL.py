@@ -2,7 +2,6 @@ import os
 import mechanize,re
 import wget
 from bs4 import BeautifulSoup
-count = 0
 unable = []
 
 def main():
@@ -15,7 +14,7 @@ def main():
 		print ("Missing requests/mechanize/beautifulsoup4")
 		exit()
 
-	CLIENT_ID = ""
+	CLIENT_ID = "pToAEVYicMm3OkPBnOlGCHfEBFrYx1fz"
     if(len(CLIENT_ID)<1):
         print("No client_id!")
         exit()
